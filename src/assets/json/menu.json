@@ -1,0 +1,108 @@
+{
+	"code": 200,
+	"data": [
+		{
+			"icon": "home-filled",
+			"title": "首页",
+			"path": "/home/index"
+		},
+		{
+			"icon": "message-box",
+			"title": "表格",
+			"path": "/proTable",
+			"children": [
+				{
+					"path": "/proTable/useComponent",
+					"title": "使用 Component",
+					"icon": "menu"
+				}
+			]
+		},
+		{
+			"icon": "tickets",
+			"title": "表单",
+			"path": "/form",
+			"children": [
+				{
+					"path": "/form/validateForm",
+					"title": "校验表单",
+					"icon": "menu"
+				}
+			]
+		},
+		{
+			"icon": "list",
+			"title": "菜单嵌套",
+			"path": "/menu",
+			"children": [
+				{
+					"path": "/menu/menu1",
+					"title": "菜单1",
+					"icon": "menu"
+				},
+				{
+					"path": "/menu/menu2",
+					"title": "菜单2",
+					"icon": "menu",
+					"children": [
+						{
+							"path": "/menu/menu2/menu21",
+							"title": "菜单2-1",
+							"icon": "menu"
+						},
+						{
+							"path": "/menu/menu2/menu22",
+							"title": "菜单2-2",
+							"icon": "menu",
+							"children": [
+								{
+									"path": "/menu/menu2/menu22/menu221",
+									"title": "菜单2-2-1",
+									"icon": "menu"
+								},
+								{
+									"path": "/menu/menu2/menu22/menu222",
+									"title": "菜单2-2-2",
+									"icon": "menu"
+								}
+							]
+						},
+						{
+							"path": "/menu/menu2/menu23",
+							"title": "菜单2-3",
+							"icon": "menu"
+						}
+					]
+				},
+				{
+					"path": "/menu/menu3",
+					"title": "菜单3",
+					"icon": "menu"
+				}
+			]
+		},
+		{
+			"icon": "warning-filled",
+			"title": "错误页面",
+			"path": "/error",
+			"children": [
+				{
+					"path": "/404",
+					"title": "404页面",
+					"icon": "menu"
+				},
+				{
+					"path": "/403",
+					"title": "403页面",
+					"icon": "menu"
+				},
+				{
+					"path": "/500",
+					"title": "500页面",
+					"icon": "menu"
+				}
+			]
+		}
+	],
+	"msg": "成功"
+}
